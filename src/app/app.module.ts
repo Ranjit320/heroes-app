@@ -18,10 +18,10 @@ import { DashboardComponent } from './dashboard/dashboard.component'; // <-- NgM
   ],
   imports: [
     BrowserModule,
-    // AppRoutingModule,
+     AppRoutingModule,
 FormsModule
   ],
-  providers: [],
+  // providers: [],
   bootstrap: [AppComponent]
 })
 export class AppModule { }
